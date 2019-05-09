@@ -6,34 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FileUploads</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-<style>
-
-</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 
 </head>
 
 
 <body>
 
-    <nav>
+    <nav style="background-color: black;">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo center">File Uploads | Django</a>
         </div>
     </nav>
             
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col s12 align-center">
-                {% block content %}
-                {% endblock %}
+    <div class="contentpanel"  style="background-color: blanchedalmond; padding: 60px;">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col s12 align-center">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+    
             </div>
-
         </div>
     </div>
+    
 
     <div class="footer" style="background-color: cadetblue; padding: 40px 40px;">
         <div class="container">
